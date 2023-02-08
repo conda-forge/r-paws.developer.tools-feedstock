@@ -1,4 +1,4 @@
-{% set version = '0.1.12' %}
+{% set version = "0.2.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/paws.developer.tools_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/paws.developer.tools/paws.developer.tools_{{ version }}.tar.gz
-  sha256: c2af18ab595c10f5d8707e527d6e5209c689fb8bcb95d41a3e541da3d143eb99
+  sha256: 4ce9eb0e1a65cacf0d198885fcf00dc31c8ea6d13b3daa775650744e234f3234
 
 build:
-  merge_build_host: True  # [win]
-  number: 1
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -39,8 +39,7 @@ test:
 about:
   home: https://github.com/paws-r/paws
   license: Apache-2.0
-  summary: Interface to 'Amazon Web Services' developer tools services, including version control,
-    continuous integration and deployment, and more <https://aws.amazon.com/products/developer-tools/>.
+  summary: Interface to 'Amazon Web Services' developer tools services, including version control, continuous integration and deployment, and more <https://aws.amazon.com/products/developer-tools/>.
   license_family: APACHE
   license_file: LICENSE.txt
 

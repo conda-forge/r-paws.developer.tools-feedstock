@@ -1,11 +1,11 @@
-About r-paws.developer.tools
-============================
+About r-paws.developer.tools-feedstock
+======================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-paws.developer.tools-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/paws-r/paws
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-paws.developer.tools-feedstock/blob/main/LICENSE.txt)
 
 Summary: Interface to 'Amazon Web Services' developer tools services, including version control, continuous integration and deployment, and more <https://aws.amazon.com/products/developer-tools/>.
 

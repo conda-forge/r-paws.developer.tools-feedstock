@@ -1,6 +1,5 @@
 {% set version = "0.6.0" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-paws.developer.tools
@@ -13,8 +12,7 @@ source:
   sha256: 594a01e89be94f2e79818c60c68115940adf349870d37553bbfc1851009849b2
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
